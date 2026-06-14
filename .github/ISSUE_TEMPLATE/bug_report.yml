@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a non-sensitive bug in Smynd Protocol
+title: "Bug: "
+labels: ["type: bug", "status: proposed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include secrets, real participant data, private keys, or raw research responses.
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true

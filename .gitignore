@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+cache/
+artifacts/
+coverage/
+coverage.json
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.tgz
+.idea/
+.vscode/

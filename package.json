@@ -1,0 +1,40 @@
+{
+  "name": "@smynd/protocol",
+  "version": "0.1.0",
+  "description": "Open protocol experiments for privacy-preserving research proofs and future Smynd ecosystem primitives.",
+  "license": "Apache-2.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test --loader ts-node/esm test/*.test.ts",
+    "proof:hash": "tsx cli/smynd-proof.ts hash",
+    "proof:validate": "tsx cli/smynd-proof.ts validate",
+    "proof:inspect": "tsx cli/smynd-proof.ts inspect",
+    "contract:compile": "hardhat compile",
+    "contract:test": "hardhat test",
+    "contract:deploy:local": "hardhat run scripts/deploy-local.ts --network localhost"
+  },
+  "keywords": [
+    "smynd",
+    "research",
+    "proofs",
+    "privacy",
+    "blockchain",
+    "commitments",
+    "solidity",
+    "protocol"
+  ],
+  "dependencies": {
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^20.14.0",
+    "hardhat": "^2.22.6",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "warning": "Synthetic example only. Do not commit real participant data.",
+  "participantLocalId": "synthetic-participant-001",
+  "studyId": "synthetic-study-001",
+  "taskVersion": "attention-task-v0.1",
+  "submissionId": "synthetic-submission-001",
+  "approvalId": "synthetic-approval-001",
+  "salt": "demo-salt-not-for-production"
+}

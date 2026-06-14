@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "smynd-study-manifest-v0.1",
+  "synthetic": true,
+  "studyTitle": "Synthetic Attention Task Demo",
+  "studyVersion": "demo-v0.1",
+  "taskTypes": ["survey", "cognitive-task"],
+  "publicDescription": "A synthetic example used only to demonstrate proof commitments.",
+  "dataPolicy": {
+    "rawResponsesPublic": false,
+    "onChainData": "commitments-only",
+    "containsRealParticipantData": false
+  }
+}

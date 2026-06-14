@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "smynd-proof-v0.1",
+  "proofId": "0x44bc6d787940177af4d80ef193fd6e8fc4388b52dc17b73440a5fdcda4d7f942",
+  "issuer": "smynd-science:local-demo-issuer",
+  "issuedAt": "2026-06-14T00:00:00.000Z",
+  "studyCommitment": "0xd75365481c1f8837fdf50a5cc0046f999d816e6e372e4d0cd73c99ff17d7aaee",
+  "taskCommitment": "0x88b583bc566233d45e8a4312630f014720cbeb7a0ee0dd89c41e6062aecc80df",
+  "contributionCommitment": "0x4ec81d8c01f70d1092e058a7144d0b4c1137f9a61ad84a0b59d60f5cb8cfb14f",
+  "approvalCommitment": "0x0aa10ff7a995c32d6f0ea6f35a05084839e3b13fb7f93a4f854cb8a6dca2ff19",
+  "metadataUri": "https://github.com/smynd-science/smynd-protocol/blob/main/examples/sample-study-manifest.json"
+}
