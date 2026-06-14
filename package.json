@@ -8,12 +8,13 @@
   "scripts": {
     "build": "tsc -p tsconfig.json --noEmit",
     "lint": "tsc -p tsconfig.json --noEmit",
-    "test": "node --test --loader ts-node/esm test/*.test.ts",
+    "test": "node --test --loader ts-node/esm test/hash.test.ts",
+    "test:unit": "node --test --loader ts-node/esm test/hash.test.ts",
     "proof:hash": "tsx cli/smynd-proof.ts hash",
     "proof:validate": "tsx cli/smynd-proof.ts validate",
     "proof:inspect": "tsx cli/smynd-proof.ts inspect",
     "contract:compile": "hardhat compile",
-    "contract:test": "hardhat test",
+    "contract:test": "hardhat test test/ResearchContributionProofRegistry.test.cjs",
     "contract:deploy:local": "hardhat run scripts/deploy-local.ts --network localhost"
   },
   "keywords": [
@@ -36,5 +37,8 @@
     "ts-node": "^10.9.2",
     "tsx": "^4.16.0",
     "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
