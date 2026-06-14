@@ -25,6 +25,13 @@ Smynd Protocol is a public proof layer around private research workflows.
    - does not hold money;
    - does not implement token economics.
 
+
+6. **Royalty ledger layer**
+   - records approved dataset usage events;
+   - calculates deterministic reward allocations for eligible contribution commitments;
+   - produces a Merkle root that can be anchored on-chain;
+   - does not perform token payouts in v0.1.
+
 5. **Verifier**
    - receives a proof document from an authorized party;
    - hashes it locally;

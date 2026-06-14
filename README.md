@@ -114,6 +114,21 @@ Public registry
   revocation state
 ```
 
+
+## Research Contribution Royalty Ledger
+
+This repository now includes an experimental **royalty ledger** layer. The idea is that if an approved dataset is reused later, eligible participant contribution records can receive an additional reward allocation.
+
+The v0.1 design is privacy-preserving and mostly off-chain:
+
+- private participant data stays in the Smynd product system;
+- dataset manifests contain commitments, not raw records;
+- usage events define approved dataset use;
+- reward ledgers allocate a royalty pool to eligible contribution commitments;
+- only an optional Merkle root can be anchored on-chain.
+
+Read [`docs/royalty-ledger.md`](docs/royalty-ledger.md).
+
 ## Suggested public roadmap
 
 - v0.1: proof schema, examples, hashing utilities, privacy model

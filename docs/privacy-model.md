@@ -53,3 +53,16 @@ Even hashes can be unsafe if the input space is small or guessable. For that rea
 Blockchain data may be immutable. Therefore, only minimal commitments should be recorded, and revocation should be supported.
 
 If a participant later exercises deletion rights, the private product system should delete or anonymize private data according to policy. Public registries may only be able to revoke or mark a proof as invalid.
+
+
+## Future-use and royalty eligibility
+
+The royalty ledger must treat consent and future-use eligibility as private governance inputs. Public examples may include only synthetic flags. Production systems must not publish why a record is excluded, because exclusion reasons could reveal withdrawal, low quality, policy state, or sensitive account history.
+
+For future dataset usage, records should be eligible only when the product system confirms:
+
+- the relevant consent scope allows future use;
+- the consent version is valid for the dataset license;
+- the record is not withdrawn from future use;
+- the record meets the dataset quality policy;
+- the usage event is approved under the dataset license.

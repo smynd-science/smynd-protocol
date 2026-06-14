@@ -8,14 +8,15 @@
   "scripts": {
     "build": "tsc -p tsconfig.json --noEmit",
     "lint": "tsc -p tsconfig.json --noEmit",
-    "test": "node --test --loader ts-node/esm test/hash.test.ts",
-    "test:unit": "node --test --loader ts-node/esm test/hash.test.ts",
+    "test": "node --test --loader ts-node/esm test/hash.test.ts test/royalty.test.ts",
+    "test:unit": "node --test --loader ts-node/esm test/hash.test.ts test/royalty.test.ts",
     "proof:hash": "tsx cli/smynd-proof.ts hash",
     "proof:validate": "tsx cli/smynd-proof.ts validate",
     "proof:inspect": "tsx cli/smynd-proof.ts inspect",
     "contract:compile": "hardhat compile",
-    "contract:test": "hardhat test test/ResearchContributionProofRegistry.test.cjs",
-    "contract:deploy:local": "hardhat run scripts/deploy-local.ts --network localhost"
+    "contract:test": "hardhat test test/*.test.cjs",
+    "contract:deploy:local": "hardhat run scripts/deploy-local.ts --network localhost",
+    "royalty:ledger": "tsx cli/smynd-proof.ts royalty-ledger"
   },
   "keywords": [
     "smynd",

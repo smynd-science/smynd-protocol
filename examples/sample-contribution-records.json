@@ -1,0 +1,51 @@
+[
+  {
+    "schemaVersion": "smynd-contribution-record-v0.1",
+    "recordCommitment": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "participantCommitment": "0x1111111111111111111111111111111111111111111111111111111111111111",
+    "studyCommitment": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "taskCommitment": "0x3333333333333333333333333333333333333333333333333333333333333333",
+    "consentScopeHash": "0x4444444444444444444444444444444444444444444444444444444444444444",
+    "consentVersionHash": "0x5555555555555555555555555555555555555555555555555555555555555555",
+    "qualityScore": 0.92,
+    "createdAt": "2026-06-14T00:00:00.000Z",
+    "eligibility": {
+      "royaltyEligible": true,
+      "futureUseAllowed": true
+    },
+    "metadataUri": "ipfs://synthetic-record-a"
+  },
+  {
+    "schemaVersion": "smynd-contribution-record-v0.1",
+    "recordCommitment": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "participantCommitment": "0x6666666666666666666666666666666666666666666666666666666666666666",
+    "studyCommitment": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "taskCommitment": "0x3333333333333333333333333333333333333333333333333333333333333333",
+    "consentScopeHash": "0x4444444444444444444444444444444444444444444444444444444444444444",
+    "consentVersionHash": "0x5555555555555555555555555555555555555555555555555555555555555555",
+    "qualityScore": 0.78,
+    "createdAt": "2026-06-14T00:05:00.000Z",
+    "eligibility": {
+      "royaltyEligible": true,
+      "futureUseAllowed": true
+    },
+    "metadataUri": "ipfs://synthetic-record-b"
+  },
+  {
+    "schemaVersion": "smynd-contribution-record-v0.1",
+    "recordCommitment": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "participantCommitment": "0x7777777777777777777777777777777777777777777777777777777777777777",
+    "studyCommitment": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "taskCommitment": "0x3333333333333333333333333333333333333333333333333333333333333333",
+    "consentScopeHash": "0x4444444444444444444444444444444444444444444444444444444444444444",
+    "consentVersionHash": "0x5555555555555555555555555555555555555555555555555555555555555555",
+    "qualityScore": 0.61,
+    "createdAt": "2026-06-14T00:10:00.000Z",
+    "eligibility": {
+      "royaltyEligible": true,
+      "futureUseAllowed": false,
+      "withdrawalEffectiveAt": "2026-06-15T00:00:00.000Z"
+    },
+    "metadataUri": "ipfs://synthetic-record-c-withdrawn"
+  }
+]

@@ -9,6 +9,8 @@ The public SDK should expose stable helpers only.
 - proof hashing;
 - proof shape validation;
 - commitment helper.
+- royalty ledger creation;
+- Merkle root helper for reward-ledger entries.
 
 ## Not public in early versions
 

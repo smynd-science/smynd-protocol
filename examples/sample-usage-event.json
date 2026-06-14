@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "smynd-usage-event-v0.1",
+  "usageId": "usage-synthetic-001",
+  "datasetManifestHash": "0x0a500cbd134fc5c4b664c974eec86b0e98524c1e8702ececc3753c0d8f93043d",
+  "researcherCommitment": "0x8888888888888888888888888888888888888888888888888888888888888888",
+  "licenseHash": "0x9999999999999999999999999999999999999999999999999999999999999999",
+  "usageType": "academic-analysis",
+  "usedAt": "2026-06-20T12:00:00.000Z",
+  "currency": "USD",
+  "grossAmountMinorUnits": "50000",
+  "royaltyPoolMinorUnits": "10000",
+  "settlementMode": "on-chain-root-only",
+  "metadataUri": "ipfs://synthetic-usage-event"
+}

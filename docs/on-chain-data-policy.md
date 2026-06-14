@@ -30,6 +30,21 @@ Only if reviewed:
 - revocation state;
 - commitments to study, task, contribution, and approval.
 
+
+## Reward-ledger anchoring
+
+For royalty ledgers, public chains may receive a Merkle root and ledger hash. They must not receive per-participant payout rows, raw dataset records, participant identifiers, or sensitive eligibility details.
+
+Allowed experimental fields for reward-root anchoring:
+
+- reward root ID;
+- usage event hash;
+- dataset manifest hash;
+- reward ledger hash;
+- Merkle root;
+- schema version;
+- optional metadata URI with no private data.
+
 ## Public messaging
 
 Do not describe this repository as a token launch. It is a proof and verification experiment.

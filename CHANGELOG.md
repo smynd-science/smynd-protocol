@@ -8,6 +8,8 @@ The format follows a simple public changelog style. This repository uses small r
 
 ### Added
 
+- Experimental research contribution royalty ledger types, examples, CLI command, Merkle helper, and reward-root registry contract.
+
 - Initial public protocol repository structure.
 - Proof schema documentation.
 - Synthetic sample proof files.

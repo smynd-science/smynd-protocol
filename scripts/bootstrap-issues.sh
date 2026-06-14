@@ -45,6 +45,7 @@ ensure_milestone "v0.2 Registry Contract" "Solidity proof registry, authorized i
 ensure_milestone "v0.3 CLI Utilities" "Local proof generation, validation, inspection, and verification utilities."
 ensure_milestone "v0.4 SDK" "JavaScript SDK and integration helpers."
 ensure_milestone "v0.5 Demo Integration" "End-to-end local demo and technical write-up."
+ensure_milestone "v0.6 Royalty Ledger" "Dataset usage events, reward ledgers, Merkle roots, and reward-root anchoring."
 
 ensure_issue "Define v0.1 proof schema" "Define the first public Smynd proof schema and document required fields, optional fields, and privacy boundaries.\n\nAcceptance criteria:\n- docs/proof-format.md is updated.\n- examples/sample-proof.json follows the schema.\n- No real user data is included." "type: docs,area: proof-schema,release: v0.1,status: planned" "v0.1 Proof Schema"
 
@@ -61,3 +62,9 @@ ensure_issue "Add CLI validate command fixtures" "Add positive and negative fixt
 ensure_issue "Design JavaScript SDK package boundary" "Define what should be exported by the SDK and what should remain internal.\n\nAcceptance criteria:\n- docs/sdk-boundary.md exists.\n- src/index.ts exports stable public helpers only." "type: docs,area: sdk,release: v0.4,status: future" "v0.4 SDK"
 
 ensure_issue "Create end-to-end local demo" "Create a local demo that hashes a proof, records the digest in the registry, and verifies it.\n\nAcceptance criteria:\n- Demo uses synthetic data.\n- Demo runs locally without production services." "type: feature,area: contracts,area: cli,release: v0.5,status: future" "v0.5 Demo Integration"
+
+ensure_issue "Define research contribution royalty ledger" "Define contribution records, dataset manifests, usage events, and reward ledgers for approved dataset reuse.\n\nAcceptance criteria:\n- docs/royalty-ledger.md exists.\n- Synthetic examples validate.\n- No real participant data or token payout logic is included." "type: docs,area: royalty,release: v0.6,status: planned" "v0.6 Royalty Ledger"
+
+ensure_issue "Implement deterministic royalty allocation" "Implement off-chain allocation of royalty pools across eligible contribution records.\n\nAcceptance criteria:\n- npm run royalty:ledger works on synthetic examples.\n- npm run test covers eligibility, weighting, and total allocation.\n- Withdrawn/future-use-disabled records are excluded." "type: feature,area: royalty,release: v0.6,status: planned" "v0.6 Royalty Ledger"
+
+ensure_issue "Add reward root registry contract" "Add an experimental on-chain registry for reward-ledger Merkle roots, without storing participant payout rows.\n\nAcceptance criteria:\n- npm run contract:test passes.\n- Contract supports authorize, anchor, revoke, and verify.\n- docs/on-chain-data-policy.md documents allowed fields." "type: contract,area: contracts,area: royalty,release: v0.6,status: planned" "v0.6 Royalty Ledger"

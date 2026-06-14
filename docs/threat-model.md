@@ -55,6 +55,33 @@ Mitigations:
 - pre-publication validation;
 - staging/local testing before public chain use.
 
+
+### Royalty misallocation
+
+A participant may be underpaid or overpaid if a dataset manifest, usage event, quality score, consent state, or allocation rule is wrong.
+
+Mitigations:
+
+- deterministic allocation code;
+- ledger tests;
+- explicit dataset manifest hash checks;
+- consent/future-use eligibility flags;
+- reviewable reward ledger Merkle roots;
+- separation between off-chain accounting and on-chain anchoring.
+
+### Unauthorized off-platform reuse
+
+If a researcher exports data and reuses it outside Smynd without reporting usage, a smart contract cannot detect that by itself.
+
+Mitigations:
+
+- signed dataset licenses;
+- usage reporting requirements;
+- export manifests;
+- researcher terms;
+- optional watermarking and audit trails;
+- incentive to register official usage for citation, compliance, and verification.
+
 ### Token confusion
 
 Observers may interpret proof registry experiments as a token launch or financial claim.

@@ -43,6 +43,7 @@ upsert_label "area: proof-schema" "bfd4f2" "Proof schema and commitments"
 upsert_label "area: contracts" "5319e7" "Solidity contracts and chain registry"
 upsert_label "area: cli" "fef2c0" "Command-line tooling"
 upsert_label "area: sdk" "d4c5f9" "SDK and developer APIs"
+upsert_label "area: royalty" "f9d0c4" "Royalty ledger and reuse rewards"
 upsert_label "area: docs" "0075ca" "Documentation"
 upsert_label "area: security" "e99695" "Security and threat model"
 
@@ -58,3 +59,5 @@ upsert_label "release: v0.2" "bfd4f2" "On-chain registry experiment"
 upsert_label "release: v0.3" "d4c5f9" "CLI utilities"
 upsert_label "release: v0.4" "fef2c0" "JavaScript SDK"
 upsert_label "release: v0.5" "f9d0c4" "Demo integration"
+
+upsert_label "release: v0.6" "c5def5" "Research contribution royalty ledger"
