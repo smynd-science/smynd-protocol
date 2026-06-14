@@ -55,6 +55,17 @@ Deploy locally in another terminal:
 npm run contract:deploy:local
 ```
 
+
+## Royalty ledger demo
+
+Generate a synthetic reward ledger from a dataset manifest, usage event, and contribution records:
+
+```bash
+npm run royalty:ledger -- examples/sample-dataset-manifest.json examples/sample-usage-event.json examples/sample-contribution-records.json
+```
+
+This command does not pay users or touch production data. It only demonstrates deterministic off-chain allocation and Merkle-root generation.
+
 ## Production warning
 
 Before any production integration:

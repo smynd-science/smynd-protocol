@@ -88,3 +88,21 @@ Status: future
 Exit criteria:
 
 - Risks and non-goals are clear enough for outside contributors and reviewers.
+
+
+## v0.6 — Research contribution royalty ledger
+
+Status: planned
+
+- Define contribution records, dataset manifests, usage events, and reward ledgers.
+- Add deterministic off-chain royalty allocation.
+- Add Merkle root generation for reward-ledger entries.
+- Add an experimental reward-root registry contract.
+- Document consent, future-use eligibility, and on-chain data boundaries.
+
+Exit criteria:
+
+- `npm run royalty:ledger -- examples/sample-dataset-manifest.json examples/sample-usage-event.json examples/sample-contribution-records.json` emits a valid ledger.
+- `npm run test` covers reward allocation.
+- `npm run contract:test` covers reward-root anchoring and revocation.
+- No raw participant data or payout/token logic is introduced.

@@ -1,4 +1,4 @@
-.PHONY: install test build lint contracts labels issues
+.PHONY: install test build lint contracts labels issues royalty
 
 install:
 	npm install
@@ -21,3 +21,6 @@ labels:
 
 issues:
 	./scripts/bootstrap-issues.sh smynd-science/smynd-protocol
+
+royalty:
+	npm run royalty:ledger -- examples/sample-dataset-manifest.json examples/sample-usage-event.json examples/sample-contribution-records.json
